@@ -1,0 +1,48 @@
+
+.container{
+    text-align: center;
+    position: relative;
+    top: 10%;
+    margin: 5px;
+    padding: 10px;
+}
+
+header{
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+.input{
+    display: block;
+    margin: 20px;
+    width: 500px;
+    height: 50px; 
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-style: none;
+    background-color: lightgray;
+    font-size: 1.3em;
+}
+
+.input:hover{
+    border-bottom: purple solid;
+}
+
+#btn{
+    background-color: purple;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    font-size: 1.3em;
+    color: whitesmoke;
+    
+}
+
+

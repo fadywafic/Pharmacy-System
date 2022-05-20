@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in page</title>
+    <link rel="stylesheet" href="../CSS/sign up.css"> 
+    <script defer src="../SCRIPTS/login.js"></script>   
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Log in form</h1>
+        </header>
+
+        <form class="form">
+            <input  class="input" id="userName" type="text" placeholder="UserName" onblur="checkUserName()">
+            <!-- <input class="input" id="email" type="email" placeholder="Email" required> -->
+            <input class="input" id="password" type="password" placeholder="Password" onblur="checkPassword()">
+            <!-- <input class="input" id="Password" type="password" placeholder="Confirm Password" required> -->
+            <input id="btn" type="button" value="Log in" onclick="logIn()">
+        </form>
+        <span>if you don't have any accounts <a href="../HTML/sign up.html">click here</a> to register</span>
+    </div>
+</body>
+</html>

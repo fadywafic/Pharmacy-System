@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/cust invoices.css">
+    <script defer src="https://kit.fontawesome.com/4ad23a6100.js" crossorigin="anonymous"></script>
+    <script defer src="../SCRIPTS/invoices.js"></script>
+    <title>pharmacy system</title>
+</head>
+<body>
+
+    <header id="header">
+        <h1>
+             Hello in <span id="span1">our project's</span> pharmacy system
+            <span id="span2" class="fas fa-prescription-bottle-alt"></span>
+            <span id="span2" class="fas fa-pills"></span>
+            <a href="../HTML/main.html"><span id="span3" class="fas fa-arrow-left"></span></a>
+            <!-- <a href="../HTML/supplier invoices.html"><span id="span4" class="fas fa-arrow-right"></span></a> -->
+        </h1>
+    </header>
+
+    <header id="customerHeader">
+        <h1>invoices</h1>
+    </header>
+
+    <form id="form">
+        <div class="mainDiv">
+            <input class="input" id="customer" type="text" placeholder="customer/supplier name" value="unknown">
+            <input class="input" id="item" type="text" placeholder="item">
+            <input class="input" id="qty" type="number" placeholder="quantity">
+            <div id="radioDiv">
+                <input type="radio" name="type" id="buy" ><label class="radio">buy from supplier</label>
+                <input type="radio" name="type" id="sell"><label class="radio">sell to customer</label> 
+            </div>
+            <input class="btn" type="button" value="add" onclick="add()">
+            <input class="btn" type="button" value="Done/Get invoice table" onclick="Done()">
+        </div>
+        
+        
+        <div class="subTableEditDiv">
+            <h2>sub invoice table</h2>
+            <input class="input" id="subTableId" type="number" placeholder="id" disabled>
+            <input class="input" id="subTableitem" type="text" placeholder="item" disabled>
+            <input class="input" id="subTableQty" type="number" placeholder="quantity">
+            <input class="input" id="subTableTotal" type="number" placeholder="total" disabled>
+            <input class="input" id="subTableType" type="text" placeholder="type" disabled>
+            <input id="btn2" type="button" value="save" onclick="saveSub()">
+            <input id="btn2" type="button" value="done" onclick="finish()">
+        </div>
+
+        <div class="mainTableEditDiv">
+            <h2>main invoice table</h2>
+            <input class="input" id="mainTableId" type="number" placeholder="Id" disabled>
+            <input class="input" id="mainTableCustomer" type="text" placeholder="customer/supplier name">
+            <input class="input" id="mainTableDate" type="text" placeholder="date" disabled>
+            <input class="input" id="mainTableType" type="text" placeholder="sales/purchase order" disabled>
+            <input class="input" id="mainTableTotal" type="number" placeholder="total" disabled>
+            <input id="btn2" type="button" value="save" onclick="saveMain()">
+            <input id="btn2" type="button" value="done" onclick="finish()">
+        </div>
+    </form>
+
+    <table id="subTable">
+        
+    </table>
+
+    <table id="mainTable">
+        
+    </table>
+
+<!-- 
+    <aside id="move">
+        <a href="../HTML/invoices.html" ><img src="../images/more than.jpg" width="100px" height="100px"></a>
+    </aside>
+     -->
+    
+</body>
+</html>

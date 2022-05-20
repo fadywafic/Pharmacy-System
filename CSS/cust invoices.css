@@ -1,0 +1,135 @@
+
+body{
+    margin: 0px;
+}
+
+#header{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#span1{
+    color: coral;
+}
+
+#span2 {
+    color: rgb(224, 24, 24);
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#span3{
+    float:left;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+#span4 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#customerHeader{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    font-size: 1.2em;
+}
+#form {
+    /* display: inline-block; */
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    float: left;
+}
+
+table{
+    border: purple solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: auto;
+    font-size: 1.2 em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+table td{
+    border:rgb(34, 105, 133) solid;
+    padding: 5px;
+    font-size: 1.2 em;
+}
+
+.radio{
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.input {
+    display: block;
+    margin: 10px;
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-style: none;
+    background-color: lightgray;
+    font-size: 1.1em;
+}
+
+.input:hover {
+    border-bottom: purple solid;
+}
+
+.btn {
+    background-color: purple;
+    display: block;
+    margin: 10px;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    font-size: 1.1em;
+    color: whitesmoke;
+}
+
+#btn2 {
+    background-color: purple;
+    display: block;
+    margin: 10px;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    font-size: 1.1em;
+    color: whitesmoke;
+}
+
+.mainTableEditDiv{
+    display: none;
+}
+
+.subTableEditDiv{
+    display: none;
+}

@@ -1,0 +1,165 @@
+
+body{
+    margin: 0px;
+}
+
+#header{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#span1{
+    color: coral;
+}
+
+#span2 {
+    color: rgb(224, 24, 24) ;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#span3{
+    float:right;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#form {
+    /* display: inline-block; */
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    float: left;
+}
+
+table{
+    border: maroon solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: auto;
+    font-size: 1.2 em;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: inline-block;
+}
+
+table td{
+    border:rgb(34, 105, 133) solid;
+    padding: 5px;
+    font-size: 1.2 em;
+}
+
+
+.cameraContainer{
+    display: inline-block;
+    border: darkslateblue solid 3px;
+}
+
+#vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camerabtn{
+    display: inline-block;
+}
+
+#canvas{
+    display: none;
+    margin-left: 100px;
+}
+
+.imgContainer {
+    display: none;
+    margin: 10px;
+    border: darkslateblue solid 3px;
+    padding: 3px;
+}
+
+#img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.imageAndVideoContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.input {
+    display: block;
+    margin: 10px;
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-style: none;
+    background-color: lightgray;
+    font-size: 1.1em;
+}
+
+.input:hover {
+    border-bottom: rgb(34, 105, 133) solid;
+}
+
+#btn {
+    background-color: rgb(34, 105, 133);
+    display: block;
+    margin: 10px;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    font-size: 1.1em;
+    color: whitesmoke;
+}
+
+#btn2 {
+    background-color: rgb(34, 105, 133);
+    display: none;
+    margin: 10px;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    font-size: 1.1em;
+    color: whitesmoke;
+}
+
+/* #move{
+    display: inline-block;
+    position:fixed;
+    left: 90%;
+    top:  50%;
+} */
+.deleteAndSearch{
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-style: none;
+    background-color: lightgray;
+    font-size: 1.1em;
+}
+
+

@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <script defer src="https://kit.fontawesome.com/4ad23a6100.js" crossorigin="anonymous"></script>
+    <script defer src="../SCRIPTS/main.js"></script>
+    <title>pharmacy system</title>
+</head>
+<body>
+
+    <header id="header">
+        <h1>
+             Hello in <span id="span1">our project's</span> pharmacy system
+            <span id="span2" class="fas fa-prescription-bottle-alt"></span>
+            <span id="span2" class="fas fa-pills"></span>
+            <a href="../HTML/invoices.html"><span id="span3" class="fas fa-arrow-right"></span></a>
+        </h1>
+    </header>
+
+    <form id="form">
+        <input class="input" id="item" type="text" placeholder="item">
+        <input class="input" id="price" type="number" placeholder="price">
+        <input class="input" id="qty" type="number" placeholder="quantity">
+        <div class="imageAndVideoContainer">
+            <div class="imgContainer"> 
+                <image id="img" width="300px" height="300px"></image>
+                <input class="imgbtns" type="button" value="delete image" onclick="deleteImage()">
+                <input class="imgbtns" type="button" value="change image" onclick="changeImage()">
+            </div>
+            <div class="cameraContainer">
+                <video autoplay="true" id="vid" width="300px" height="300px"></video>
+                <input class="camerabtn" type="button" value="start camera " onclick="startCamera()">
+                <input class="camerabtn" type="button" value="take screenshot" onclick="takeScreenShot()">
+                <input class="camerabtn" type="button" value="stop camera" onclick="stopCamera()">
+            </div>
+            <canvas id="canvas" width="300px" height="300px"></canvas>
+        </div>
+        <input id="btn" type="button" value="add" onclick="add()">
+        <input id="btn2" type="button" value="save" onclick="save()">
+        <div class="deleteAndSearchontainer">
+            <input class="deleteAndSearch" type="text" placeholder="delete item from database">
+            <input id="deletebtn" type="button" value="delete" onclick="deleteRecord()">
+        </div>
+        <div class="deleteAndSearchontainer">
+            <input class="deleteAndSearch" type="text" placeholder="search on item in database">
+            <input id="searchbtn" type="button" value="search" onclick="searchRecord()">
+        </div>
+        <div class="deleteAndSearchontainer search">
+
+        </div>
+    </form>
+
+    <table id="itemsTable">
+        
+    </table>
+<!-- 
+    <aside id="move">
+        <a href="../HTML/invoices.html" ><img src="../images/more than.jpg" width="100px" height="100px"></a>
+    </aside>
+     -->
+    
+</body>
+</html>
